@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Service
 public class UserService {
@@ -72,7 +73,7 @@ public class UserService {
     }
 
     public String sendOTPByMobileNumber(String mobileNumber) {
-        return "It requires money";
+        return "It requires paid service";
     }
 
     public String generateOtp(String contact) {
